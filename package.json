@@ -2,7 +2,6 @@
   "name": "oidc-vue",
   "version": "1.0.0",
   "description": "Wrapper around oidc-client-js to to better work in a Vue application with Vue Router integration.",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve src/app/main.ts",
     "serve-async": "vue-cli-service serve src/app/main-async.ts",
