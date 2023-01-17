@@ -40,10 +40,12 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmedsakri/oidc-vue.git"
+    "url": "git+https://github.com/ahmedsakri/oidc-vue.git"
   },
   "bugs": {
-    "url": "https://github.com/soukoku/oidc-vue/issues"
+    "url": "https://github.com/ahmedsakri/oidc-vue/issues"
   },
-  "homepage": "https://github.com/soukoku/oidc-vue"
+  "homepage": "https://github.com/ahmedsakri/oidc-vue",
+  "author": "ahmedsakri <ahmed.f.sakri@gmail.com>",
+  "license": "ISC"
 }
