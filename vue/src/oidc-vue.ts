@@ -289,7 +289,7 @@ export function createOidcAuth(
             path: vroutePath,
             name: `signinwin-${nameSlug}`,
             component: {
-              render: (h: (arg0: string) => any) => h('div'),
+              render: h => h('div'),
               created() {
                 mgr
                   .signinRedirectCallback()
