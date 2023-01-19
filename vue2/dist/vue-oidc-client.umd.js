@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([, "oidc-client"], factory);
 	else if(typeof exports === 'object')
-		exports["vue-oidc-client"] = factory(require("vue"), require("oidc-client"));
+		exports["oidc-vue"] = factory(require("vue"), require("oidc-client"));
 	else
-		root["vue-oidc-client"] = factory(root["Vue"], root["oidc-client"]);
+		root["oidc-vue"] = factory(root["Vue"], root["oidc-client"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__, __WEBPACK_EXTERNAL_MODULE_c097__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -4045,7 +4045,7 @@ var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpac
 // EXTERNAL MODULE: external "oidc-client"
 var external_oidc_client_ = __webpack_require__("c097");
 
-// CONCATENATED MODULE: ./src/vue-oidc-client.ts
+// CONCATENATED MODULE: ./src/oidc-vue.ts
 
 
 
@@ -4540,4 +4540,4 @@ module.exports = global.Promise;
 
 /******/ });
 });
-//# sourceMappingURL=vue-oidc-client.umd.js.map
+//# sourceMappingURL=oidc-vue.umd.js.map
