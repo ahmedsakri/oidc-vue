@@ -4036,7 +4036,7 @@ var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpac
 // EXTERNAL MODULE: external "oidc-client"
 var external_oidc_client_ = __webpack_require__("c097");
 
-// CONCATENATED MODULE: ./src/oidc-vue.ts
+// CONCATENATED MODULE: ./src/vue-oidc-client.ts
 
 
 
@@ -4530,4 +4530,4 @@ module.exports = global.Promise;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=oidc-vue.common.js.map
+//# sourceMappingURL=vue-oidc-client.common.js.map
