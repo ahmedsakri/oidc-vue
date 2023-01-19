@@ -1,5 +1,5 @@
 {
-  "name": "vue-oidc-client",
+  "name": "oidc-vue",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve src/sample-app/main.ts",
