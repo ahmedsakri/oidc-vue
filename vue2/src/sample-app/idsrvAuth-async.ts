@@ -5,7 +5,7 @@ import {
   SignInType,
   LogLevel,
   OidcAuth
-} from '../vue-oidc-client'
+} from '../oidc-vue'
 
 const loco = window.location
 const appRootUrl = `${loco.protocol}//${loco.host}${process.env.BASE_URL}`

@@ -4,11 +4,11 @@
   "scripts": {
     "serve": "vue-cli-service serve src/sample-app/main.ts",
     "serve-async": "vue-cli-service serve src/sample-app/main-async.ts",
-    "build": "vue-cli-service build --target lib src/vue-oidc-client.ts",
+    "build": "vue-cli-service build --target lib src/oidc-vue.ts",
     "lint": "vue-cli-service lint"
   },
-  "types": "src/vue-oidc-client.d.ts",
-  "main": "dist/vue-oidc-client.umd.min.js",
+  "types": "src/oidc-vue.d.ts",
+  "main": "dist/oidc-vue.umd.min.js",
   "dependencies": {
     "oidc-client": "^1.11.5"
   },
