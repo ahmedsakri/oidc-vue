@@ -1,3 +1,5 @@
+# Source for Vue 2 version along with the sample site
+
 ## Project setup
 ```
 npm install

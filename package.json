@@ -5,15 +5,15 @@
   "author": "ahmedsakri <ahmed.f.sakri@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cd vue && npm install --quiet && npm run build"
+    "build": "cd vue2 && npm install --quiet && npm run build"
   },
   "dependencies": {
     "oidc-client": "^1.11.5"
   },
   "files": [
-    "vue/package.json",
-    "vue/dist/vue-oidc*",
-    "vue/src/vue-oidc*",
+    "vue2/package.json",
+    "vue2/dist/vue-oidc*",
+    "vue2/src/vue-oidc*",
     "polyfill.js"
   ],
   "keywords": [
